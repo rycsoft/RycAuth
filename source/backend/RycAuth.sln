@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RycAuth.API", "RycAuth.API\RycAuth.API.csproj", "{24438605-71D4-4D6B-9AED-C81F1631960C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RycAuth.Application", "RycAuth.Application\RycAuth.Application.csproj", "{9759D804-A6CA-4DF0-B01E-2FE39BEA168F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RycAuth.Domain", "RycAuth.Domain\RycAuth.Domain.csproj", "{B34556E1-622B-4511-89DA-7ABC82C9FAF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RycAuth.Infrastructure", "RycAuth.Infrastructure\RycAuth.Infrastructure.csproj", "{35A28F9B-0582-4F1D-B1FF-A01AE00948E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24438605-71D4-4D6B-9AED-C81F1631960C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24438605-71D4-4D6B-9AED-C81F1631960C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24438605-71D4-4D6B-9AED-C81F1631960C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24438605-71D4-4D6B-9AED-C81F1631960C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9759D804-A6CA-4DF0-B01E-2FE39BEA168F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9759D804-A6CA-4DF0-B01E-2FE39BEA168F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9759D804-A6CA-4DF0-B01E-2FE39BEA168F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9759D804-A6CA-4DF0-B01E-2FE39BEA168F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B34556E1-622B-4511-89DA-7ABC82C9FAF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B34556E1-622B-4511-89DA-7ABC82C9FAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B34556E1-622B-4511-89DA-7ABC82C9FAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B34556E1-622B-4511-89DA-7ABC82C9FAF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35A28F9B-0582-4F1D-B1FF-A01AE00948E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35A28F9B-0582-4F1D-B1FF-A01AE00948E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35A28F9B-0582-4F1D-B1FF-A01AE00948E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35A28F9B-0582-4F1D-B1FF-A01AE00948E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
