@@ -2,8 +2,11 @@ using RycAuth.Infrastructure.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Get database connection string
+string? dbConnectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
 // Add the dependencies
-builder.Services.AddInfrastructureDependency();
+builder.Services.AddInfrastructureDependency(dbConnectionString);
 
 // Add the controllers
 builder.Services.AddControllers();
