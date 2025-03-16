@@ -1,6 +1,11 @@
+using RycAuth.Infrastructure.Configuration;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container
+// Add the dependencies
+builder.Services.AddInfrastructureDependency();
+
+// Add the controllers
 builder.Services.AddControllers();
 
 // Add the Swagger API
